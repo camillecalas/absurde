@@ -1,0 +1,117 @@
+.container1 {
+  border: 4px solid red;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  z-index: 10;
+  font-family: "Menlo";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+}
+
+.absurde {
+  bottom: 30px;
+  padding-top: 100px;
+}
+
+.container2 {
+  border: 4px solid purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titreVertical {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-text-orientation: upright;
+          text-orientation: upright;
+}
+
+section {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-33.01%, #003566), to(#0CE7BF)), #38005A;
+  background: linear-gradient(180deg, #003566 -33.01%, #0CE7BF 100%), #38005A;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  mix-blend-mode: luminosity;
+}
+
+.image1 {
+  z-index: 5;
+}
+
+.cercle {
+  z-index: 3;
+  left: 40%;
+  top: 30%;
+  background: radial-gradient(50% 50% at 50% 50%, #FFE600 0%, #FFBF00 66.15%, #FF9900 99.99%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+}
+.cercle:hover {
+  background: black;
+}
+
+text {
+  fill: red;
+  font-size: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
