@@ -1,13 +1,9 @@
 
 .container1{
     border: 4px solid red;
-    width: 55%;
+   @include sectionSect;
     @include flexCenter(row);
-    justify-content: space-between;
-   margin-left: 60px;
-   padding-top: 30px;
-   padding-bottom: 30px;
-  
+   position: relative;
 }
 
 h2{
@@ -15,60 +11,53 @@ h2{
 }
 
 .absurde{
-    // position: absolute;
     bottom:30px;
-    // left:50%;
-    // transform: translateX(-50%);
-   padding-top: 100px;
+   padding-top: 85px;
 }
 .container2{
     // position: relative;
-    border: 4px solid purple;
+    // border: 4px solid purple;
     @include flexCenter(column);
     justify-content: space-between;
+   
 
 
 }
 
 .titreVertical{
+    position: absolute;
+    left: 20px;
+    align-self: flex-start;
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
 
-section{
+.section1{
     background: linear-gradient(180deg, #003566 -33.01%, #0CE7BF 100%), #38005A;
 }
 
-img{
-    object-fit: cover;
-    top:0;
-    width: 100%;
-    height: 900px;
-    position: absolute;
-    mix-blend-mode: luminosity;
-}
 
-.image1{
-    z-index: 5;
-}
 
 .cercle{
+ position: fixed;
+ transform: translateY(-50%);
     z-index: 3;
-    left: 40%;
-    top: 30%;
+    // left: 40%;
+    // top: 30%;
     background: radial-gradient(50% 50% at 50% 50%, #FFE600 0%, #FFBF00 66.15%, #FF9900 99.99%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
     width: 246px;
     height: 246px;
     border-radius: 50%;
     &:hover{
-        background: black;
+        width: 446px;
+        height: 446px;
+        background: radial-gradient(47.36% 47.36% at 50% 52.64%, #47463E 0%, #12120E 90.55%), #C4C4C4;
+        transition: 0.5s ease-in-out;
     }
 }
 
-text {
-    fill: red;
-    font-size: 30px;
-  }
+
+
 
 
 
